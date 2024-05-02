@@ -1,0 +1,148 @@
+#headers {
+  width: 100%;
+  height: 70vh;
+  margin-top: 70px;
+}
+
+#headers h1 {
+  text-align: center;
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(97, 90, 90);
+}
+#headers .brand-name {
+  color: rgb(157, 58, 58);
+}
+#headers h2 {
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+}
+
+#headers .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  color: rgb(157, 58, 58);
+  border: 2px solid rgb(157, 58, 58);
+  text-decoration: none;
+}
+#headers .btn-get-started:hover {
+  background: rgb(157, 58, 58);
+  color: #fff;
+}
+.header-img {
+  text-align: right;
+}
+
+#headers .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@media (max-width: 991px) {
+  #headers {
+    height: 80vh;
+    text-align: center;
+  }
+  #headers .header-img {
+    text-align: center;
+  }
+  #headers .header-img img {
+    width: 60%;
+  }
+  #platform {
+    text-align: center;
+    padding: 64px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #headers {
+    margin-top: 20px;
+  }
+  #headers h1 {
+    font-size: 28px;
+  }
+  #headers h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #headers .header-img img {
+    width: 70%;
+  }
+  .col-md-6 {
+    flex: auto;
+    width: 50%;
+  }
+  #platform h1 {
+    font-size: 28px;
+  }
+  #platform h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  #platform {
+    position: relative;
+    display: block;
+    padding: 50px 0;
+  }
+}
+
+#platform {
+  width: 100%;
+
+  margin-top: 70px;
+  padding: 5vw 0;
+}
+#platform h1 {
+  text-align: center;
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(97, 90, 90);
+}
+#platform h2 {
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+#platform .cardInfo {
+  padding: 20px;
+  display: flex;
+  max-height: 25%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#platform .hover :hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #cccccc;
+  background-color: white;
+}
+#platform .info {
+  font-size: 20px;
+  font-weight: 400;
+  color: #58595b;
+  text-align: center;
+}

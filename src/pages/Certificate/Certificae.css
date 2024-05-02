@@ -1,0 +1,17 @@
+.conall {
+  /* background-image: url(../../images/certiback.jpg); */
+  background-color: white;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+.wrapper {
+  display: grid;
+  justify-items: center;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

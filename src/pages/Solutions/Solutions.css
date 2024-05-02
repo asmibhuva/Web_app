@@ -1,0 +1,70 @@
+#topper {
+  width: 100%;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#topper h1 {
+  text-align: center;
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+#topper .brand-name {
+  color: rgb(157, 58, 58);
+}
+#topper h2 {
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+}
+#topper h2 img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 5px;
+  animation-name: rotateme;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@media (max-width: 991px) {
+  #topper {
+    text-align: center;
+  }
+  #topper .header-img {
+    text-align: center;
+  }
+  #topper .header-img img {
+    width: 60%;
+  }
+  .video-bg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #topper {
+    margin-top: 20px;
+  }
+  #topper h1 {
+    font-size: 28px;
+  }
+  #topper h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #topper .header-img img {
+    width: 70%;
+  }
+  .col-md-6 {
+    flex: auto;
+    width: 50%;
+  }
+
+  .video-bg {
+    display: none;
+  }
+}

@@ -1,0 +1,73 @@
+#platforms {
+  width: 100%;
+
+  margin-top: 70px;
+  padding: 5vw 0;
+  /* background-image: url(../../images/caseback.jpg); */
+  background-size: cover;
+}
+#platforms h1 {
+  text-align: center;
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(157, 58, 58);
+}
+#platforms h2 {
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+#platforms .cardInfo {
+  padding: 20px;
+  display: flex;
+  max-height: 25%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#platforms .hover :hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #cccccc;
+  background-color: white;
+}
+#platforms .info {
+  font-size: 20px;
+  font-weight: 400;
+  color: #58595b;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  #platforms {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    flex: auto;
+    width: 50%;
+  }
+
+  #platforms h1 {
+    font-size: 28px;
+  }
+  #platforms h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  #platforms {
+    position: relative;
+    display: block;
+    padding: 50px 0;
+  }
+}
